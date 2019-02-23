@@ -105,3 +105,32 @@ footer {
   }
    
 }
+
+
+/*---------- Tablets  ----------*/
+@media (min-width: 760px) {
+  header {
+    background-color: red;
+  }
+
+  #column-1 {
+    background-color: purple;
+    width: 33%;
+  }
+
+  #column-2 {
+    background-color: hotpink;
+    width: 33%;
+  }
+
+  #column-3 {
+    background-color: cadetblue;
+    width: 33%;
+  }
+
+  footer {
+    background-color: black;
+    width: 50%;
+  }
+   
+}
